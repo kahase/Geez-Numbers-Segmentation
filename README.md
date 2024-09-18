@@ -20,7 +20,7 @@ The program performs the following steps:
       Closing: Fills small gaps in the symbols.
       Dilation: Connects small components like horizontal and vertical strokes of Geez numbers.
 # 3. Segmentation
-    ## Line Segmentation:
+## 1. Line Segmentation:
         Detects and extracts individual lines from the image by scanning for non-empty rows.
-    ##Character Segmentation: 
+## 2. Character Segmentation: 
         Detects and extracts individual characters from each line by scanning for non-empty columns.
