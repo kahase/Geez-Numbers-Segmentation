@@ -1,5 +1,5 @@
-# Geez Numbers Segmentation Using Morphological Operations
-This project implements a simple approach to segment Geez number images into individual lines and characters using Connected Component Analysis and Morphological Operations in OpenCV.
+# Geez Numbers Segmentation Using Projection Profile and Morphological Operations
+This project implements a simple approach to segment Geez number images into individual lines and characters using  Projection Profile Algorithm and Morphological Operations in OpenCV.
 
 # Overview
 Geez numbers have unique structures, with untouching horizontal and vertical components. This makes segmentation challenging with simple thresholding. To overcome this, we apply morphological operations like closing and dilation to connect the disconnected parts of the numbers.
